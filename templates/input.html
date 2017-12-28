@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Input </title>
+</head>
+<body>
+	{% if data %}
+      	<h2>Entered data: {{ data }}</h2>
+    	{% else %}
+      	<h2>Enter some text</h2>
+	<form method="POST" action="/input">
+    	<input type="text" name="log" placeholder="Enter the data">
+    	<br><br>
+    	<input type="submit" value="Submit" name="submit"/>
+	</form>
+	{% endif %}
+</body>
+</html>
