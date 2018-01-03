@@ -46,19 +46,19 @@ Go to the browser and the type ```http://http://127.0.0.1:5000/``` to see the ho
 
 
 ## Tasks
-1. A simple hello-world at http://localhost:5000/ that displays a string "Hello World - Subhasis".
+- [x] A simple hello-world at http://localhost:5000/ that displays a string "Hello World - Subhasis".
 
-2. Displays the list of authors and the count of their posts by fetching data from [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) and [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts) in the address http://localhost:5000/authors.
+- [x] Displays the list of authors and the count of their posts by fetching data from [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) and [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts) in the address http://localhost:5000/authors.
 
-3. Sets a simple cookie (if it has not already been set) at http://localhost:5000/setcookie with the values: username=Subhasis Martha and age=19.
+- [x] Sets a simple cookie (if it has not already been set) at http://localhost:5000/setcookie with the values: username=Subhasis Martha and age=19.
 
-4. Fetches the set cookie with http://localhost:5000/getcookies and displays the stored key-values in it.
+- [x] Fetches the set cookie with http://localhost:5000/getcookies and displays the stored key-values in it.
 
-5. Denies requests to http://localhost:5000/robots.txt page with an error message.
+- [x] Denies requests to http://localhost:5000/robots.txt page with an error message.
 
-6. Render a HTML page at http://localhost:5000/html.
+- [x] Render a HTML page at http://localhost:5000/html.
 
-7. Accepts a string as input at http://localhost:5000/input which sends the data as POST to the same endpoint and prints the submitted string in stdout and the page.
+- [x] Accepts a string as input at http://localhost:5000/input which sends the data as POST to the same endpoint and prints the submitted string in stdout and the page.
 
 
 ## Built With
